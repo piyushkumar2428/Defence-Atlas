@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defense Atlas - Weapons, Aircrafts, and Ships</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        body{
+            background-image: url(final.jpg);
+            background-repeat: no-repeat;
+            
+            
+        }
+        
+      .hal-text{
+        background-color: rgb(0, 7, 9);
+        color:rgb(248, 247, 247);
+        border: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 18px;
+        font-weight: bold ;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        margin-bottom: 5px;
+        margin-left: 10px; 
+        
+      }
+      
+
+      .hal-text:hover {
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+        padding-right: 120px;
+        padding-bottom: 12px;
+        transition: 0.5s;
+      }
+      .image-text{
+        display: block;
+        margin: 10px;
+      }
+      .heading-text{
+        font-family: verdana;
+        font-weight: bold;
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+
+
+      }
+      .link-text{
+        font-family: arial;
+        font-size: 20px;
+        margin: 5px;
+      }
+      .link2-text{
+        font-family: arial;
+        font-size: 20px;
+        margin: 5px;
+      }
+      .link3-text{
+        font-family: arial;
+        font-size: 20px;
+        margin: 5px;
+      }
+
+      .heading5-text {
+       font-family: verdana;
+       margin-bottom: 7px;
+       
+      }
+      .heading2-text:hover{
+        background-color: red;
+        cursor: pointer;
+        display: inline-block;background-color: red;
+        cursor: pointer;
+        display: inline-block;
+        transition: 1s
+        
+      }
+      
+
+      .air1-text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        margin: 7px;
+      }
+      .air2-text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0px;
+        font-weight: bold;
+
+      }
+
+      .image1-text{
+        margin: 220px;
+        padding-right: 300px;
+        padding-left: 300px;
+        padding-bottom: 80px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+      }
+      .heading3-text{
+        text-decoration: underline;
+        margin: 8px;
+      }
+      .pt1-text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 125px;
+        font-weight: bold;
+
+      }
+
+      .mirage-img{
+        height: 180px;
+        width: 320px;
+      }
+
+      .jet-image{
+        margin-bottom: 0px;
+      
+    
+    background-color: rgb(159, 163, 164);
+    color: white;
+    border: none;
+    font-family: Verdana;
+   
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 18px;
+    font-weight: bold ;
+    font-size: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    display: block;
+    margin: 20px;
+    margin-left: 0px;
+
+  
+      }
+      .jet-image:hover {
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+        padding-right: 140px;
+        padding-bottom: 18px;
+        transition: 0.5s;
+      }
+      .dassault-img{
+        width: 280px;
+        height: 150px;
+      }
+      .pt8-text {
+        margin-bottom: 480px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        display: block;
+      }
+      .pt7-text{
+        margin-bottom: 0px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+      }
+      .pt6-text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+
+      }
+      .letter-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+      }
+      .unde-line{
+        text-decoration: underline;
+        margin: 24px;
+        margin-left: 0px;
+        
+      }
+
+      .navy-heading {
+        font-family: verdana;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        width: 150px;
+        height: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px;
+        margin-bottom: 0px;
+        text-decoration: underline;
+      }
+      
+      
+      .navy-heading:hover{
+        background-color: red;
+        cursor: pointer;
+        display: inline-block;background-color: red;
+        cursor: pointer;
+        display: inline-block;
+        border-color: black;
+      }
+      
+      .letter7-text{
+        margin-top: 6px;
+      }
+
+      .navi-heading{
+        font-size: 24px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        font-family: verdana;
+        font-weight: bold;
+      }
+
+      .border-text{
+        font-weight: bold;
+        font-family: verdana;
+      }
+
+      .deco-text{
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: underline;
+      }
+
+      .deco1-button{
+        font-size: 22px;
+        width: 100px;
+        font-weight: bold;
+      }
+
+      .unde1-line{
+        font-weight: bold;
+        font-family: verdana;
+      }
+
+      .unde2-line{
+        margin-bottom: 18px;
+      }
+
+      .end-img{
+        margin-top: 15px;
+      }
+      
+      .unde4-line{
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-family: verdana;
+      }
+
+      .end4-img{
+        display: block;
+        margin-top: 15px;
+      }
+
+      .end5-img{
+        display: block;
+        margin-top: 15px;
+      }
+
+      .letter-text{
+        margin-bottom: 0px;
+      }
+
+      .heading7-text{
+        font-size: 40;
+        font-weight: bold;
+        font-family: verdana;
+      
+      }
+
+      .heading7-text:hover{
+        background-color: red;
+        cursor: pointer;
+        display: inline-block;background-color: red;
+        cursor: pointer;
+        display: inline-block;
+        border-color: black;
+      }
+
+      .heading8-text{
+        text-decoration: underline;
+      }
+
+      .heading9-text{
+        font-family: verdana;
+        font-size: 25px;
+
+      }
+
+      .weapons-img{
+        width: 300px;
+        margin: 15px;
+      }
+      .weapons2-img{
+        width: 300px;
+        display: block;
+        margin: 15px;
+      }
+      .weapons3-img{
+        width: 300px;
+        display: block;
+        margin: 15px;
+      }
+
+      .dassault-img:hover{
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.60);
+        padding-right: 20px;
+        padding-bottom: 20px;
+        transition: 0.5s;
+        background-color: grey;
+        ;
+      }
+
+      .chatgpt-link{
+        background-color: rgb(19, 157, 216);
+        color: white;
+        border: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 18px;
+        font-weight: bold ;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        margin-left: 8px;
+        margin-top: 8px;
+
+      }
+
+      .chatgpt-link:hover {
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.0);
+        padding-right: 120px;
+        padding-bottom: 12px;
+        transition: 0.5s;
+      }
+
+      .know-info{
+        background-color: white;
+        border-color: rgba(37, 120, 244, 0.921);
+        border-style: solid; 
+        color: rgba(37, 120, 244, 0.921);
+        height: 35px;
+        width: 82px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+        transition: background-colour 1s,
+        colour 1s;
+      }
+
+      .know-info:hover{
+        background-color: rgba(37, 120, 244, 0.921); 
+        color: white;
+        transition: 0.15s;
+      }
+      
+
+      .problem-solve-text{
+        margin-bottom: 3px;
+      }
+      .dassault1-img{
+        width: 350px;
+        margin-top: 15px;
+      }
+
+    .dassault1-img:hover{
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.60);
+        padding-right: 20px;
+        padding-bottom: 20px;
+        transition: 0.5s;
+        background-color: grey;
+        width: 350px;
+
+    }
+
+    .About-button{
+        background-color: rgb(223, 19, 19);
+        color: white;
+        border: none;
+        height: 35px ;
+        width: 100;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+        transition: opacity 0.15s;
+      }
+
+      .About-button:hover{
+        opacity:0.7;
+      }
+    
+      .About-button:active{
+        opacity: 0.5;
+      }
+
+    
+
+
+
+
+      
+
+
+
+
+
+
+      
+      
+     
+    </style>
+</head>
+<body>
+   
+    <header>
+        <div class="navbar">
+            <h1 class ="heading-text">DEFENCE ATLAS</h1>
+            <nav>
+                <ul>
+                    <li class="link-text"><a href="#INDIAN AIR FORCE">INDIAN AIR FORCE</a></li>
+                    <li class="link2-text"><a href="#INDIAN NAVY">INDIAN NAVY</a></li>
+                    <li class="link3-text"><a href="#ships">INDIAN ARMY</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+
+    <section id="INDIAN AIR FORCE">
+        
+        <h2 class="heading2-text"> INDIAN AIR FORCE :-</h2>
+        
+        <p class="air1-text">
+            The Indian Air Force (IAF) is the air warfare branch of the Indian Armed Forces, responsible for securing Indian airspace and conducting aerial operations during conflicts. It is one of the strongest air forces in the world
+        </p>
+        <h3 class="heading3-text"> Establishment of the Indian Air Force (IAF)
+            :-
+        </h3>
+        <p class="air2-text">
+            The Indian Air Force (IAF) was officially established on 8 October 1932 as an auxiliary force of the Royal Air Force (RAF) under British rule. It became an independent force after India's independence in 1947.
+As of March 27, 2025, the Chief of the Air Staff (CAS) of the Indian Air Force (IAF) is Air Chief Marshal Amar Preet Singh. He assumed the position on September 30, 2024, succeeding Air Chief Marshal Vivek Ram Chaudhari.
+        </p>
+        <h3 class="heading3-text"> Background and Career:-
+        </h3>
+        <p class="pt6-text">
+            •	Commissioning and Early Service: Air Chief Marshal Singh was commissioned into the fighter stream of the IAF on December 21, 1984. 
+        </p>
+        <p class="pt7-text">
+            •	Flight Experience: He is a qualified flying instructor and experimental test pilot with over 5,000 hours of operational flying across various fighter and trainer aircraft.  
+
+        </p>
+        
+        <p class="pt8-text">
+            •	Leadership Roles: Prior to becoming the CAS, he served as the Vice Chief of the Air Staff from February 1, 2023, to September 30, 2024. He also held the position of Air Officer Commanding-in-Chief of the Central Air Command.  
+Awards and Honors:
+<button class="chatgpt-link" onclick="document.location='https://en.wikipedia.org/wiki/Indian_Air_Force'" >
+  FOR FURTHER INFORMATION >>
+</button>
+<button class="chatgpt-link" onclick="document.location='https://chatgpt.com/'" >
+  For More Information Use AI >>
+</button>
+
+        </p>
+        <div class="content">
+            <article>
+                <button class="jet-image">
+                    Aircrafts
+                </button>
+                <h3 class="unde-line">✅ DASSAULT RAFALE :-
+                </h3>
+                <img class="dassault-img" src="dassault.jpg" alt="Dassault Rafale :-">
+                <p class="letter-text">
+                    •	Role: Multirole
+
+                </p>
+                <p class="letter-text">
+                    •	Features: Stealth features, AESA radar, nuclear strike capability
+
+                </p>
+                <p class="letter-text">
+                    •	Top Speed: 1.8 Mach (~1,912 km/h)
+
+
+                </p>
+                <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/Dassault_Rafale'">
+                  Know more
+                </button>
+
+                <h3 class="unde-line">✅ HAL Tejas (LCA) 🇮🇳 :-
+                </h3>
+                <img class="dassault-img" src="hal.jpg" alt="✅ HAL Tejas (LCA) 🇮🇳">
+                <p class="letter-text">
+                    •	Role: Light multirole fighter
+                </p>
+                <p class="letter-text">
+                    •	Features: Indigenous jet, fly-by-wire controls, glass cockpit
+                </p>
+                <p class="letter-text">
+                    •	Top Speed: 1.6 Mach (~1,975 km/h)
+                </p>
+                <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/HAL_Tejas'">
+                  Know more
+                </button>
+
+
+                <h3 class="unde-line">✅ Mirage 2000 :-
+                </h3>
+                <img class="dassault-img" src="mirage.jpg" alt="✅ Mirage 2000 :-" >
+                <p class="letter-text">
+                    •	Role: Multirole fighter
+
+                </p>
+                <p class="letter-text" >
+                    •	Features: Played a key role in Balakot airstrikes, nuclear-capable
+
+
+                </p>
+                <p class="letter-text">
+                    •	Top Speed: 2.2 Mach (~2,336 km/h)
+
+
+                </p>
+                <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/Dassault_Mirage_2000'">
+                  Know more
+                </button>
+
+                <h3>
+                    ✅ Upcoming Fighter Jets for IAF :-
+
+                </h3>
+                <p class="letter-text">
+                    HAL Tejas Mk-2 (Under Development)
+                </p>
+                
+                <p class="letter-text">
+                    Advanced Medium Combat Aircraft (AMCA) (Under Development)
+                </p>
+
+                <p class="letter-text">
+                    TEDBF (Twin Engine Deck-Based Fighter)
+                </p>
+                   
+                    <h3 class = "border-text">
+                     Challenges to the survival of the Indian Air Force(IAF) :-
+  
+                     </h3>
+                     <p class = "letter-text">
+                      The Indian Air force(IAF) is one of the most powerful air forces in the world,but it faces
+                      several chanllenges that could impact its operational
+                     </p>
+
+
+
+                     <h3 class="letter-text">Comparison of aircrafts :-
+                    </h3>
+                    <img class="dassault1-img" src="eem.jpeg" alt="✅ Mirage 2000 :-" >
+                    
+
+
+                
+
+             
+            
+                
+               
+
+          </article>
+          <section id="INDIAN NAVY">
+            <article>
+                <h3 class="heading-text">INDIAN NAVY
+
+                </h3>
+
+                <p class="letter-text">
+                  Naval defence refers to the military strategies, operations, and equipment used to protect a nation’s maritime interests, including territorial waters, exclusive economic zones (EEZ), and global sea trade routes. It involves naval forces such as warships, submarines, aircraft, and coastal defence systems. 
+The Indian Navy ensures maritime security, power projection, and safeguarding India's interests across the Indian Ocean Region (IOR).
+
+                </p>
+
+                <h4 class="navi-heading">Establish :-
+
+                </h3>
+
+                <p class="letter-text">
+                  The Indian Navy was established on 26 January 1950. However, its origins trace back to 1612, when the East India Company formed a naval force called the Honourable East India Company's Marine to protect British trade in India.
+                </p>
+
+                <h4 class="navi-heading">INDIAN NAVY CHIEF
+                  :-
+
+                </h3>
+                <p class="letter-text">
+                  As of March 27, 2025, the Chief of the Naval Staff (CNS) of the Indian Navy is Admiral Dinesh Kumar Tripathi. He assumed the position on April 30, 2024, succeeding Admiral R. Hari Kumar.
+                </p>
+
+                <p class="deco-text">
+                  TYPES OF NAVY SHIPS
+                </p>
+                <button class="jet-image">
+                  Aircraft carrier
+              </button>
+              <h3 class="unde1-line">✅ Ins vikrant :-
+              </h3>
+              <img class="dassault-img" src="vikrant.jpg" alt="Ins vikrant">
+              <p class="letter-text">
+                •	Serve as floating airbases for fighter jets, helicopters, and surveillance aircraft.
+Example: U.S. Nimitz-class aircraft carriers, INS Vikrant (IAC-1), INS Vikramaditya.etc.
+INS Vikramaditya:
+
+<button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/INS_Vikrant_(2013)'">
+  Know more
+</button>
+
+
+              </p>
+              <h3 class="unde1-line">✅ Kiev-class aircraft :-
+
+              </h3>
+              <img class="dassault-img" src="kiev.jpeg" alt="✅ Kiev-class">
+              <p class="letter-text">
+                •	Commissioned: 2013
+                •	Displacement: About 45,000 tons
+                • Aircraft Capacity: Around 30, including MiG-29K fighter jets and Kamov helicopters.
+                •	Propulsion: Steam turbines, max speed around 30 knots.
+
+                <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/Kiev-class_aircraft_carrier'">
+                  Know more
+                </button>
+                
+
+                
+
+                  <h3 class="unde4-line">✅ Destroyers :
+                    :-
+                    <img class="dassault-img" src="visakha.jpeg" alt="✅ Destroyer.
+                  :-">
+                            
+                    <p class="letter-text">
+                      •	Fast, manoeuvrable ships equipped for anti-aircraft, anti-submarine, and anti-surface warfare.
+                      Example: Arleigh Burke-class destroyers. 
+                      
+                      Kolkata-class (Project 15A):
+                      •	Commissioned: 2014–2016
+                      •	Displacement: About 7,500 tons
+                      •	Armament:
+                      •	BrahMos supersonic cruise missiles
+                      •	Barak 8 surface-to-air missiles
+                      •	Torpedoes and anti-submarine rockets
+                      •	Sensors: Advanced radar and sonar systems for multi-dimensional warfare.
+                      •	Speed: Over 30 knots
+                      •	Crew: Around 300 personnel
+                      •	Role: Multi-role operations including anti-air, anti-surface, and anti-submarine warfare.
+                        Visakhapatnam-class (Project 15B):
+                       
+                    </p>
+
+                    <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/List_of_destroyer_classes_of_the_Indian_Navy'">
+                      Know more
+                    </button>
+                    
+              
+
+              </p>
+
+        
+
+
+              <h3 class="unde4-line">✅ Frigates:
+                :-
+
+                <img class="dassault-img" src="frigates.jpeg" alt="">
+        
+                <p class="problem-solve-text">
+                  •	Smaller than destroyers, primarily used for escort duties and anti-submarine warfare.
+Example: FREMM multipurpose frigates.
+Frigates in the Indian Navy serve multi-role functions, including anti-submarine warfare, surface combat, and air defence.
+ Shivalik-class (Project 17):
+ • Commissioned: 2010–2012
+ • 	Displacement: About 6,200 tons
+
+                </p>
+                <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/List_of_frigates_of_India'">
+                  Know more
+                </button>
+                
+
+                <h3 class="unde4-line">✅ Submarines :
+                  :-
+
+                  <img class="dassault-img" src="subb.jpeg" alt="">
+                  <p class="letter-text">
+                    •	Ballistic Missile Submarines (SSBN): Carry nuclear ballistic missiles for deterrence.
+                    •	Cruise Missile Submarines (SSGN): Equipped with cruise missiles for land attacks.
+                                     Example: INS Arihant,ins Chakra etc.
+                                     India's submarine fleet includes both nuclear and conventional types.
+                                     Nuclear Submarines:
+                    •	INS Arihant (SSBN): India's first indigenous ballistic missile submarine 
+                    
+                  </p>
+
+                  <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/Talwar-class_frigate'">
+                    Know more
+                  </button>
+
+
+
+        
+
+
+
+
+
+               
+              
+              
+        
+
+    
+
+
+              </p>
+
+              
+              </p>
+
+                
+                
+            </article>
+            <article>
+                
+            </article>
+          
+        </div>
+    </section>
+
+    <section id="INDIAN ARMY">
+        <h2 class="heading7-text">INDIAN ARMY</h2>
+        <p class="letter-text">
+          The Indian Army is the land-based branch and the largest component of the Indian Armed Forces. Its primary mission is to ensure national security and defend the country from external threats and aggression, maintain peace and security within its borders, and provide humanitarian assistance during natural disasters or emergencies.
+        </p>
+
+        <h4 class="navi-heading">Establish :-
+
+        </h3>
+
+        <p class="letter-text">
+          Indian army was officially established on April 1, 1895, during British rule, as the British Indian Army. It was formed by merging the presidency armies of the East India Company. After India's independence in 1947, the Indian Army became the land-based branch of the Indian Armed Forces, with its current structure taking shape on January 26, 1950, when India became a republic.
+        </p>
+
+        <h4 class="navi-heading">global ranking of Indian army :-
+        <p classs="letter-text">
+
+          The Indian Army is ranked 4th globally among 145 nations in the 2025 Global Firepower (GFP) Index.
+The top 5 global military powers in 2025, according to the Global Firepower Index, are:
+1:- United States - Power Index: 0.0744
+2:- Russia - Power Index: 0.0788
+3:- China - Power Index: 0.0788
+4:- India - Power Index: 0.1184
+5:- South Korea - Power Index: 0.1656
+        </p>
+
+        <h4 class="heading8-text">Budget of india and another dominating countries
+          :-
+
+
+        </h3>
+        <p class="letter-text">
+          The top countries with the highest military budgets in 2025 are:
+          1:- United States: $895 billion
+          2:- China: $266.85 billion 
+          3:- Russia: $126 billion  
+          4:- India: $75 billion
+          5:- Saudi Arabia: $74.76 billion      
+        </p>
+
+        <h4 class="heading-text">Post Rank in Indian army 
+
+          :-
+
+        <p>
+          1. Commissioned Officers:
+:- Field Marshal (Honorary rank)
+:- General
+:- Lieutenant General
+:- Major General
+:- Brigadier
+:- Colonel
+:- Lieutenant Colonel
+:- Major
+:- Captain
+:- Lieutenant
+
+
+        </p>
+        
+        <p>
+          2. Junior Commissioned Officers (JCOs):
+:- Subedar Major
+:- Subedar
+:- Naib Subedar
+
+        </p>
+
+        <p>
+          3. Non-Commissioned Officers (NCOs):
+:- Havildar
+:- Naik
+:- Lance Naik
+:- Sepoy (Soldier)
+        </p>
+
+        <h4 class="heading9-text">weapons used by Indian army 
+
+          :-
+
+          <p class="weapons-text">1:- Infantry Weapons:
+            
+          </p>
+          <img class ="dassault-img" src="insas.jpg" alt="Infantry Weapons:">
+
+          <p class="letter-text">
+            The INSAS (Indian Small Arms System) is a family of infantry weapons developed in India. It includes an assault rifle and a light machine gun (LMG). Here are some key details:
+History :- The INSAS rifle was introduced in the late 1990s and became the standard infantry weapon for the Indian Armed Forces. It was notably used during the Kargil War in 1999
+. Caliber: 5.56×45mm NATO.
+. Weight: Approximately 4 kg for the rifle without a magazine.
+. Effective Range: 400 meters for the rifle.
+
+<button class="know-info" onclick="document.location='https://www.jagranjosh.com/general-knowledge/list-of-indian-army-infantry-weapons-1673776571-1'">
+  Know more
+</button>
+
+
+          </p>
+
+          <h4 class="heading9-text">AK-203
+
+            :-
+
+            <img class ="dassault-img"src="ak203.jpg" alt="AK-203">
+            <p class="letter-text">
+              The AK-203 is a modern assault rifle designed by Russia and adopted by the Indian Army to replace the INSAS rifles. Here are some key features:
+-	History
+The AK-203 combines the reliability of the AK series with modern enhancements like Picatinny rails for mounting optics and improved ergonomics. It is being manufactured in India under a joint venture between Russia and India at the Korwa Ordnance Factory in Uttar Pradesh.
+-	Specification
+Caliber: 7.62×39mm. 
+Weight: Approximately 3.8 kg.
+Effective Range: 400–800 meters.
+Operation: Gas-operated with a rotating bolt mechanism.
+
+            </p>
+
+            <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/AK-203'">
+              Know more
+            </button>
+
+            <h4 class="heading9-text">SIJ 716i
+
+              :-
+              <img class ="dassault-img" src="sij.jpg" alt="SIJ 716i">
+              <p class="letter-text">
+                The SIG 716i is a modern, semi-automatic rifle designed for precision and reliability. Here are some key features:
+:- History
+This rifle is part of the SIG Sauer TREAD series, known for its modularity and adaptability. The SIG 716i is favored for its power and precision, making it suitable for both military and civilian use. In India, it has been integrated into the Army's arsenal for operations in challenging terrains
+Caliber: 7.62×51mm NATO
+<button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/SIG_Sauer_SIG516'">
+  Know more
+</button>
+
+              </p>
+
+              <h4 class="heading9-text">Artillery:
+
+                <p class="letter-text">
+                  Artillery refers to large-caliber weapons designed to launch projectiles over long distances to support military operations. These weapons are typically used for indirect fire, meaning they can target enemies that are out of direct sight. Artillery plays a crucial role in providing firepower during combat, suppressing enemy positions, and supporting infantry and armored units.
+:-Key Features:
+. Long-Range Firepower: Artillery can strike targets located far away, often beyond the direct line of sight.
+. High Explosive Impact: Artillery shells and rockets deliver powerful blasts, capable of causing significant damage.
+
+                </p>
+
+                <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/SIG_Sauer_SIG516'">
+                  Know more
+                </button>
+                
+    
+
+                <h4 class="heading9-text">Bofors FH-77:
+                  <img class="dassault-img"  src="tank.jpg" alt="Bofors FH-77">
+
+                <p class="letter-text">
+                  Field howitzer
+The Bofors FH-77 is a 155 mm field howitzer developed by the Swedish company Bofors. It is renowned for its high rate of fire and mobility, making it a valuable asset in artillery operations. Here are some key details:
+Spacification:-
+. Caliber: 155 mm.
+. Rate of Fire: Capable of firing 4 rounds in 9 seconds or 6 rounds in 25 seconds.
+. Range: Effective firing range of up to 24 km (15 miles), extendable with advanced ammunition.
+ . Mobility: Equipped with an auxiliary power unit, allowing it to move short distances without a towing vehicle.
+. Role in India: The Indian Army acquired the FH-77B variant in the 1980s, and it played a crucial role during the Kargil War in 1999.
+                </p>
+                <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/Haubits_FH77'">
+                  Know more
+                </button>
+
+
+                <h4 class="heading9-text">helicopter:
+                  <img class="dassault-img"  src="heli.jpg" alt="Bofors FH-77">
+                  <p class="letter-text">
+                    Helicopters: HAL Rudra
+                    he HAL Rudra is an armed variant of the HAL Dhruv Advanced Light Helicopter, developed by Hindustan Aeronautics Limited (HAL). It is designed for attack, reconnaissance, and support missions. Here are its key features:
+                    :-india have 70 rudra aircraft
+                    Armament:
+                    20mm turret gun.
+                    70mm rocket pods.
+                    Anti-tank guided missiles (ATGMs).
+                    Air-to-air missiles.
+                    :-Sensors and Systems:
+                    . Forward-looking infrared (FLIR) for night operations.
+                    . Thermal Imaging Sights Interface (TISI).
+                    . Integrated Defensive Aids Suite (IDAS) for electronic warfare.
+                    
+                  </p>
+                  <button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/Helicopter'">
+                    Know more
+                  </button>
+
+                  <h4 class="heading9-text">Drone:
+                    <img class="dassault-img"  src="drone.jpg" alt="Bofors FH-77">
+                    <p>
+                      Aircraft and drones play a crucial role in the Indian Army's operations, enhancing its capabilities in various domains. Here's how they are utilized:
+Aircraft
+. Transport and Logistics: Aircraft like the C-17 Globemaster and IL-76 are used for transporting troops, equipment, and supplies to remote and high-altitude areas.
+. Combat Support: Helicopters like the HAL Rudra and Apache AH-64E are used for close air support and anti-tank missions.
+. Medical Evacuation: Aircraft are employed to evacuate injured personnel from conflict zones to medical facilities.
+1:- Helicopters: HAL Rudra
+he HAL Rudra is an armed variant of the HAL Dhruv Advanced Light Helicopter, developed by Hindustan Aeronautics Limited (HAL). It is designed for attack, reconnaissance, and support missions. Here are its key features:
+:-india have 70 rudra aircraft
+Armament:
+20mm turret gun.
+70mm rocket pods.
+Anti-tank guided missiles (ATGMs).
+Air-to-air missiles.
+Sensors and Systems:
+. Forward-looking infrared (FLIR) for night operations.
+. Thermal Imaging Sights Interface (TISI).
+. Integrated Defensive Aids Suite (IDAS) for electronic warfare.
+
+
+</p>
+
+<button class="know-info" onclick="document.location='https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle'">
+  Know more
+</button>
+
+
+<h4 class="heading9-text">HIGHEST military EXPENDITURE:
+
+
+
+  <button class="about-button">
+    About us 
+  </button>
+  
+
+
+                   
+                  
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+        <div class="content">
+            <article>
+                
+            </article>
+            <article>
+
+            </article>
+            <article>
+                
+            </article>
+        </div>
+    </section>
+
+    <section id="ships">
+      
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Indian Army. All rights reserved.</p>
+    </footer>
+</body>
+</html>
